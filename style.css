@@ -1,17 +1,142 @@
-/*
-Theme Name: JM
-Theme URI: http://jmeletronica.com.br
-Author: Mateus Antuane
-Author URI: 
-Description: Tema criado para o restaurante Rest
-Version: 1.0
-*/
+/*Codigo Bootstrap*/
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/*CSS do cabeçalho*/
+.navbar{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #cee388;
+	padding: 1rem;
+	padding-left: 2rem
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar_menu nav{
+	padding-right: 5rem;
+}
+
+.navbar_menu nav li{
+	float: right;
+	text-decoration: none;
+	list-style: none;
+	margin-right: 2rem;
+}
+.navbar-brand{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+
+/*CSS paga-home*/
+
+/*sobre a empresa*/
+.sobre_empresa{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+/*sobre imagem*/
+.sobre_image{
+	height: auto;
+	width: 100%;
+}
+.sobre_image img{
+	width: 100%;
+	height: 50rem;
+	object-fit: cover;
+}
+
+/*sobre texto*/
+.sobre_texto{
+	height: auto;
+	width: 100%;
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+/*Produtos*/
+.titulo_do_produtos{
+	margin: 3rem auto;
+}
+
+.titulo_produtos{
+	text-align: center;
+	padding: 1rem 1rem 0rem 1rem;
+}
+
+.hr_titulo_produtos{
+	width: 3rem;
+	margin: 0 auto;
+}
+
+hr:not([size]){
+	height: 0.2rem;
+	color: #000000;
+}
+
+/*Cards Produtos*/
+.secao_card_produtos{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	padding: 1rem;
+}
+
+.card_produtos{
+	border-style: solid;
+	border-width: 0.2rem;
+	padding:1rem;
+	text-align: center;
+}
+
+.card_produtos img{
+	width: 27rem;
+	height: 25rem;
+	object-fit: cover;
+	margin: 1rem 0rem 2rem 0rem;
+}
+
+.card_produtos p{
+	text-align: justify;
+}
+
+/*Seção Contatos*/
+
+/*Titulo Contato*/
+.titulo_contatos{
+	margin: 3rem auto;
+}
+
+.titulo_contatos h3{
+	text-align: center;
+	padding: 1rem 1rem 0rem 1rem;
+}
+
+.titulo_contatos hr{
+	width: 3rem;
+	margin: 0 auto;
+}
+
+/*Coluna Contatos*/
+.coluna_contatos{
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+}
+
+.contatos{
+	border-style: solid;
+	border-width: 0.2rem;
+	padding: 1rem 0rem;
+	width: 25rem;
+	text-align: center;
+	margin: 1rem auto 3rem auto;
+	background-image: linear-gradient(to right, #375435 , #cee388);
+}
 
 
-/* ==========================================================================
-   Reset
-   ========================================================================== */
 
-/**
- * Remove anchor text-decoration
- */ 
+
+
+
